@@ -11,7 +11,7 @@ namespace GestorCoches
         private string nBastidor;
         private string marca;
         private string modelo;
-        private string nVelocidades;
+        private int nVelocidades;
         private DateTime fMatriculacion;
 
         public Coche ()
@@ -19,7 +19,7 @@ namespace GestorCoches
             this.NBastidor = "";
             this.Marca = "";
             this.Modelo = "";
-            this.NVelocidades = "";
+            this.NVelocidades = 0;
             this.FMatriculacion = DateTime.Now;
         }
 
